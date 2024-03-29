@@ -9,3 +9,6 @@ from warga import Warga
 
     def istirahat(self, tempat):
     print(f'{self.id_satpam} sedang melakukan istirahat jam 12.00 sampai 12.30 di {tempat}')
+
+    def lembur(self, hari):
+        print(f'{self.id_satpam} mengambil lembur di hari {hari}')
